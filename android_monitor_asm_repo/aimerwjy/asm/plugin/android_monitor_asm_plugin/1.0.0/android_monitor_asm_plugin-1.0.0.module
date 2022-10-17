@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "aimerwjy.asm.plugin",
+    "module": "android_monitor_asm_plugin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "android_monitor_asm_plugin-1.0.0.jar",
+          "url": "android_monitor_asm_plugin-1.0.0.jar",
+          "size": 2427,
+          "sha512": "bc79ec8bd09bbb485e3a62f95d530fa06d94110ed33650f53134f6508093dad2b41a8567bbc03b8ba901ee0f4d86e6955dd023f17a346a13900ae5f31f4fecf0",
+          "sha256": "67c294e8d5531b142488f0b49fa5c1c10deba9b607ccd0ca4b86bb40380d1341",
+          "sha1": "f6284761edc3d004c7c986587c87389b1c9bcc1c",
+          "md5": "ab5bb9068526d91b2ccf5db300523497"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "3.5.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android_monitor_asm_plugin-1.0.0.jar",
+          "url": "android_monitor_asm_plugin-1.0.0.jar",
+          "size": 2427,
+          "sha512": "bc79ec8bd09bbb485e3a62f95d530fa06d94110ed33650f53134f6508093dad2b41a8567bbc03b8ba901ee0f4d86e6955dd023f17a346a13900ae5f31f4fecf0",
+          "sha256": "67c294e8d5531b142488f0b49fa5c1c10deba9b607ccd0ca4b86bb40380d1341",
+          "sha1": "f6284761edc3d004c7c986587c87389b1c9bcc1c",
+          "md5": "ab5bb9068526d91b2ccf5db300523497"
+        }
+      ]
+    }
+  ]
+}

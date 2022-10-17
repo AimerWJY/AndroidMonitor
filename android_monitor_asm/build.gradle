@@ -1,0 +1,30 @@
+apply plugin: 'groovy'
+apply plugin: 'maven-publish'
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation 'com.android.tools.build:gradle:3.5.4'
+
+    //asm
+    implementation 'org.ow2.asm:asm:9.1'
+    implementation 'org.ow2.asm:asm-commons:9.1'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'aimerwjy.asm.plugin'
+            artifactId = 'android_monitor_asm_plugin'
+            version = '1.0.0'
+
+            from components.java
+        }
+    }
+
+    repositories {
+        maven {
+            url = uri("../android_monitor_asm_repo")
+        }
+    }
+}
