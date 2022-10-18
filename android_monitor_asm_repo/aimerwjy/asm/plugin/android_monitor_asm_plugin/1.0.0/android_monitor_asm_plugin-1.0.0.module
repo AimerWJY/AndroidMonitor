@@ -27,11 +27,11 @@
         {
           "name": "android_monitor_asm_plugin-1.0.0.jar",
           "url": "android_monitor_asm_plugin-1.0.0.jar",
-          "size": 2427,
-          "sha512": "bc79ec8bd09bbb485e3a62f95d530fa06d94110ed33650f53134f6508093dad2b41a8567bbc03b8ba901ee0f4d86e6955dd023f17a346a13900ae5f31f4fecf0",
-          "sha256": "67c294e8d5531b142488f0b49fa5c1c10deba9b607ccd0ca4b86bb40380d1341",
-          "sha1": "f6284761edc3d004c7c986587c87389b1c9bcc1c",
-          "md5": "ab5bb9068526d91b2ccf5db300523497"
+          "size": 12799,
+          "sha512": "40d1bf2bbd7391dcf4ef819b085dd666f64ea4ee0ad7a66ce3161141dabd87b941ff2de7e5b427ffdbf0e8ed8076e4fe5cae3b5e005ac0069af87067f68aa767",
+          "sha256": "75f591c99a93f195f73d91553b62a720f4e5c4d324ead3209a111b80853baf4c",
+          "sha1": "c82c0e5112c7c9fab8fae2943c1eb13b11a1f912",
+          "md5": "127cd587495c64795c37389cbb1ac246"
         }
       ]
     },
@@ -51,17 +51,38 @@
           "version": {
             "requires": "3.5.4"
           }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.1"
+          }
         }
       ],
       "files": [
         {
           "name": "android_monitor_asm_plugin-1.0.0.jar",
           "url": "android_monitor_asm_plugin-1.0.0.jar",
-          "size": 2427,
-          "sha512": "bc79ec8bd09bbb485e3a62f95d530fa06d94110ed33650f53134f6508093dad2b41a8567bbc03b8ba901ee0f4d86e6955dd023f17a346a13900ae5f31f4fecf0",
-          "sha256": "67c294e8d5531b142488f0b49fa5c1c10deba9b607ccd0ca4b86bb40380d1341",
-          "sha1": "f6284761edc3d004c7c986587c87389b1c9bcc1c",
-          "md5": "ab5bb9068526d91b2ccf5db300523497"
+          "size": 12799,
+          "sha512": "40d1bf2bbd7391dcf4ef819b085dd666f64ea4ee0ad7a66ce3161141dabd87b941ff2de7e5b427ffdbf0e8ed8076e4fe5cae3b5e005ac0069af87067f68aa767",
+          "sha256": "75f591c99a93f195f73d91553b62a720f4e5c4d324ead3209a111b80853baf4c",
+          "sha1": "c82c0e5112c7c9fab8fae2943c1eb13b11a1f912",
+          "md5": "127cd587495c64795c37389cbb1ac246"
         }
       ]
     }
